@@ -32,6 +32,7 @@ const ErrorHandlerMiddleWare = (err, req, res, next) => {
     default:
       break;
   }
+  next();
 };
 
 module.exports = ErrorHandlerMiddleWare;
