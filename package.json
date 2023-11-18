@@ -1,0 +1,20 @@
+{
+  "name": "expense_tracker",
+  "version": "1.0.0",
+  "description": "A simple expense_tracker app to track your daily expenses",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harihara YS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
+  }
+}
